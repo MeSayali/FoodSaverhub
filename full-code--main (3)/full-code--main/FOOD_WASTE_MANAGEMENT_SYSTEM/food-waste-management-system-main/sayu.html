@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: grey;
+            color: #333;
+            position: relative; /* Set the body as relative for absolute positioning */
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative; /* Set the header as relative for absolute positioning */
+        }
+
+        .button-wrapper {
+            position: absolute;
+            top: 20px; /* Adjust top position */
+            right: 20px; /* Adjust right position */
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .donation-module {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .donation-module:hover {
+            transform: scale(1.05);
+        }
+
+        .donation-module h2 {
+            color: #06C167;
+            font-size: 28px; /* Increased font size */
+        }
+
+        .donation-module p {
+            margin-top: 15px;
+            font-size: 18px; /* Increased font size */
+            color: #666;
+        }
+
+        .donation-module a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px; /* Increased padding */
+            background-color: #06C167;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+            font-size: 20px; /* Increased font size */
+        }
+
+        .donation-module a:hover {
+            background-color: #00904a;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="button-wrapper">
+            <button onclick="window.location.href='index.html'" style="background-color: #06C167; color: white; padding: 10px 20px; font-size: 18px; border: none; border-radius: 5px; cursor: pointer;">Go To Home Page</button>
+        </div>
+        <h1 style="font-size: 32px;">The smallest act of kindness is worth more than the grandest intention</h1>
+    </header>
+
+    <section>
+        <div class="donation-module">
+            <h2>Donate Food</h2>
+            <p>Your food donation can make a difference. Help those in need by contributing food items.</p>
+            <a href="home.html">Donate Now</a>
+        </div>
+
+        <div class="donation-module">
+            <h2>Donate Clothes</h2>
+            <p>Your clothing donations can provide warmth and comfort. Contribute clothes to support those in need.</p>
+            <a href="cloth.html">Donate Now</a>
+        </div>
+
+        <div class="donation-module">
+            <h2>Donate Money</h2>
+            <p>Financial contributions play a crucial role. Support the cause by making a monetary donation.</p>
+            <a href="first.php">Donate Now</a>
+        </div>
+    </section>
+
+</body>
+</html>
