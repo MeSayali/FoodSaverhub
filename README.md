@@ -172,11 +172,6 @@ We welcome contributions to improve **Food Saver Hub**! Follow these steps to co
    ```
 5. Create a pull request on GitHub.
 
-## 📜 License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-## 📧 Contact
-For any queries or suggestions, feel free to reach out:
-- **Name**: Sayali Pawar
 
 
