@@ -178,6 +178,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## 📧 Contact
 For any queries or suggestions, feel free to reach out:
 - **Name**: Sayali Pawar
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **GitHub**: [https://github.com/yourusername](https://github.com/yourusername)
+- **GitHub**: [https://github.com/MeSayali](https://github.com/yourusername)
 
