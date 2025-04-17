@@ -42,7 +42,7 @@ The **Volunteer Module** supports NGOs in the donation process by providing pick
 
 ## 🛠️ Technologies Used
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Python (Django Framework)
+- **Backend**: PHP
 - **Database**: SQLite/MySQL
 - **Version Control**: Git/GitHub
   
